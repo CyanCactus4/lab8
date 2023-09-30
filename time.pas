@@ -6,9 +6,9 @@ begin
   begin
     if (year mod 100 = 0) and (year mod 400 <> 0) then
       begin
-      Print('Год невисокосный');
+      Print('Год невисокосный, дней = 365');
       exit;
       end;
-    Print('Год високосный');
+    Print('Год високосный, дней = 366');
   end;
 end.
